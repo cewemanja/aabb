@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle aabb",
+        "command": "aabb:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "aabb",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "aabb:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
